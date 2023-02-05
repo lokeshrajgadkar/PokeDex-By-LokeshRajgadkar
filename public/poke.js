@@ -50,8 +50,8 @@ function createPokemonCard(pokemon) {
 
     const pokeInnerHTML = `
     <div class="img-container">
-    <img src="https://pokeres.bastionbot.org/images/pokemon/${pokemon.id
-        }.png" alt="${name}" />
+    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/${pokemon.id
+        }.gif" alt="${name}" />
     </div>
         <div class="info">
         <span class="number">#${pokemon.id.toString().padStart(3,'0')}</span>
